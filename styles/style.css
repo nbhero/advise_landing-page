@@ -12,6 +12,7 @@
     --ADV-Quarta: #a27863;
     --ADV-Quinta: #d3ab88;
 }
+
 /* -------------------------- Alterações -------------------------- */
 
 body {
@@ -43,6 +44,14 @@ body {
     margin: 0 auto;
 }
 
+.value-primary {
+    color: var(--ADV-Quinta);
+}
+
+.bg-dark-adv {
+    background-color: var(--ADV-Primaria);
+}
+/* -------------------------- Final das Alterações -------------------------- */
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -320,11 +329,11 @@ body {
 }
 
 .property-item .border-top {
-    border-top: 1px dashed rgba(0, 185, 142, .3) !important;
+    border-top: 1px dashed rgba(185, 139, 0, 0.3) !important;
 }
 
 .property-item .border-end {
-    border-right: 1px dashed rgba(0, 185, 142, .3) !important;
+    border-right: 1px dashed rgba(185, 139, 0, 0.3) !important;
 }
 
 

@@ -288,7 +288,7 @@ body {
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    border: 1px dashed rgba(185, 111, 0, 0.3);
     transition: .5s;
 }
 
